@@ -48,16 +48,16 @@ export default {
           foreground: "hsl(var(--card-foreground))",
         },
         neon: {
-          cyan: "hsl(var(--neon-cyan))",
-          green: "hsl(var(--neon-green))",
-          purple: "hsl(var(--neon-purple))",
+          violet: "hsl(var(--neon-violet))",
+          magenta: "hsl(var(--neon-magenta))",
           pink: "hsl(var(--neon-pink))",
           blue: "hsl(var(--neon-blue))",
+          gold: "hsl(var(--neon-gold))",
         },
       },
       fontFamily: {
-        display: ['Orbitron', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        display: ['Chakra Petch', 'sans-serif'],
+        body: ['Space Grotesk', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -79,11 +79,11 @@ export default {
         },
         "pulse-neon": {
           "0%, 100%": { opacity: "1" },
-          "50%": { opacity: "0.7" },
+          "50%": { opacity: "0.6" },
         },
         "glow": {
-          "0%": { boxShadow: "0 0 20px hsl(var(--neon-cyan) / 0.4)" },
-          "100%": { boxShadow: "0 0 40px hsl(var(--neon-cyan) / 0.8)" },
+          "0%": { boxShadow: "0 0 20px hsl(var(--neon-violet) / 0.4)" },
+          "100%": { boxShadow: "0 0 40px hsl(var(--neon-violet) / 0.8)" },
         },
         "slide-up": {
           "0%": { transform: "translateY(30px)", opacity: "0" },
@@ -105,7 +105,7 @@ export default {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-neon': 'linear-gradient(135deg, hsl(var(--neon-cyan)) 0%, hsl(var(--neon-green)) 50%, hsl(var(--neon-blue)) 100%)',
+        'gradient-neon': 'linear-gradient(135deg, hsl(var(--neon-violet)) 0%, hsl(var(--neon-magenta)) 50%, hsl(var(--neon-pink)) 100%)',
       },
     },
   },

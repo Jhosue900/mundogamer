@@ -22,13 +22,13 @@ export interface Category {
 }
 
 export const categories: Category[] = [
-  { id: '1', name: 'Video Juegos', slug: 'video-juegos', count: 251, icon: '🎮', gradient: 'from-neon-cyan to-neon-green' },
-  { id: '2', name: 'Consolas', slug: 'consolas', count: 16, icon: '🖥️', gradient: 'from-neon-purple to-neon-pink' },
-  { id: '3', name: 'Controles', slug: 'controles', count: 13, icon: '🕹️', gradient: 'from-neon-blue to-neon-cyan' },
-  { id: '4', name: 'Accesorios', slug: 'accesorios', count: 49, icon: '🎧', gradient: 'from-neon-pink to-neon-purple' },
-  { id: '5', name: 'Streaming', slug: 'streaming', count: 41, icon: '📺', gradient: 'from-neon-green to-neon-cyan' },
-  { id: '6', name: 'Suscripciones', slug: 'suscripciones', count: 15, icon: '💳', gradient: 'from-neon-cyan to-neon-blue' },
-  { id: '7', name: 'Tarjetas Regalo', slug: 'tarjetas', count: 12, icon: '🎁', gradient: 'from-neon-purple to-neon-blue' },
+  { id: '1', name: 'Video Juegos', slug: 'video-juegos', count: 251, icon: '🎮', gradient: 'from-neon-violet to-neon-magenta' },
+  { id: '2', name: 'Consolas', slug: 'consolas', count: 16, icon: '🖥️', gradient: 'from-neon-magenta to-neon-pink' },
+  { id: '3', name: 'Controles', slug: 'controles', count: 13, icon: '🕹️', gradient: 'from-neon-blue to-neon-violet' },
+  { id: '4', name: 'Accesorios', slug: 'accesorios', count: 49, icon: '🎧', gradient: 'from-neon-pink to-neon-gold' },
+  { id: '5', name: 'Streaming', slug: 'streaming', count: 41, icon: '📺', gradient: 'from-neon-violet to-neon-blue' },
+  { id: '6', name: 'Suscripciones', slug: 'suscripciones', count: 15, icon: '💳', gradient: 'from-neon-gold to-neon-pink' },
+  { id: '7', name: 'Tarjetas Regalo', slug: 'tarjetas', count: 12, icon: '🎁', gradient: 'from-neon-magenta to-neon-violet' },
 ];
 
 export const platforms = ['Todos', 'PS5', 'PS4', 'PS3', 'Xbox', 'Nintendo Switch'];
