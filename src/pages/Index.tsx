@@ -14,9 +14,9 @@ const Index = () => {
       <main>
         <HeroSection />
         <CategoriesSection />
-        <FeaturedProducts />
-        <PromoBanner />
-        <BenefitsSection />
+         <FeaturedProducts /> 
+         <PromoBanner /> 
+         <BenefitsSection />
       </main>
       <Footer />
       <WhatsAppButton />
